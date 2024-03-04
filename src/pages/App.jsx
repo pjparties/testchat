@@ -1,11 +1,9 @@
 import React from 'react'
-
+import ChatPage from '../components/ChatPage'
 const App = () => {
   return (
     <div>
-      <h1 className='text-3xl text-center mt-10'>
-        Start here
-      </h1>
+      <ChatPage />
     </div>
   )
 }
